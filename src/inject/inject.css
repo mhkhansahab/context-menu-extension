@@ -1,8 +1,27 @@
 .mainDiv{
+    display: none;
     position: fixed;
-    background-color: grey;
-    padding: 50px 100px;
-    border-radius: 20px;
+    background-color: #ede0d4;
+    padding: 5px 10px;
+    border-radius: 5px;
     color: white;
     z-index: 1000;
+}
+.popup-btn{
+    background-color: #b08968;
+    color: #ede0d4;
+    font-size: 12px;
+    padding: 2px 8px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+}
+#text-container{
+    color: #7f5539;
+    margin-top: 10px;
 }
